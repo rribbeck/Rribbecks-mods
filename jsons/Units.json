@@ -1,17 +1,15 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+		"name": "Catton Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Catton People",
+		"replaces": "Warrior",
+		"movement": 4,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Metal Casting",
+		"promotions": "Ignore terrain cost",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
 	}
 ]
